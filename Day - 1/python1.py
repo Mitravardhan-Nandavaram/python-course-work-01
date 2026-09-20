@@ -1,1 +1,20 @@
-print("Hello Day 1")
+Features of Python
+
+1. Easy to use and understand - As it having easy syntaxes and beginner friendly.
+2. Cross platform - We can anywhere in Linux, Windows etc.
+3. High level language - Python is high level language which is user understandable.
+4. Pre defined libraries - In Python we need not write all the code, we can import the libraries which are pre defined.
+5. Dynamically Typed - We need not declare the data types at the time of declaration.
+6. Automatic memory management - Python uses garbage collection for the unused memory.
+7. Extensibility - It can be extensible with other programming languages.
+8. Strong community support - larger developer support and tutorials.
+9. Object oriented programming
+Class is a blueprint of an object consisting of attributes and methods.
+Object is a instance of a class.
+Encapsulation is the process of binding/wrapping the data and adding the security.
+Inheritance is the process of acquiring the properties from parent class to child class.
+Polymorphism means same action and different behaviour. (Hotstar Subscription)
+Abstraction is hiding the complexity or showing the relevant information.
+Types of Variables - Private
+Public
+Protected
