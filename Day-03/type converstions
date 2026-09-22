@@ -1,0 +1,93 @@
+dPython 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> a = 10
+>>> float(a)
+10.0
+>>> str(a)
+'10'
+>>> complex(a)
+(10+0j)
+>>> bool(a)
+True
+>>> list(a)
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    list(a)
+TypeError: 'int' object is not iterable
+>>> set(a)
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    set(a)
+TypeError: 'int' object is not iterable
+>>> TypeError: 'int' object is not iterable
+SyntaxError: invalid syntax
+>>> tuple(a)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    tuple(a)
+TypeError: 'int' object is not iterable
+>>> f = 21
+>>> int(a)
+10
+>>> str(a)
+'10'
+>>> complex(a)
+(10+0j)
+>>> bool(a)
+True
+>>> list(a)
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    list(a)
+TypeError: 'int' object is not iterable
+Traceback (most recent call last):
+    
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+c = 21+5j
+int(c)
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    int(c)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+str(c)
+'(21+5j)'
+bool(c)
+True
+list(c)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    list(c)
+TypeError: 'complex' object is not iterable
+set(c)
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    set(c)
+TypeError: 'complex' object is not iterable
+tuple(c)
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    tuple(c)
+TypeError: 'complex' object is not iterable
+bool(20)
+True
+bool = 20
+list(bool)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    list(bool)
+TypeError: 'int' object is not iterable
+str(bool)
+'20'
+set(bool)
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    set(bool)
+TypeError: 'int' object is not iterable
+tuple(bool)
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    tuple(bool)
+TypeError: 'int' object is not iterable
+float(bool)
+20.0
