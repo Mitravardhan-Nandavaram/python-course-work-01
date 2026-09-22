@@ -1,0 +1,38 @@
+# Python Data Types
+
+# 1. Integer
+quantity = 2
+
+# 2. Float
+price = 249.50
+
+# 3. String
+food = "Chicken Pizza"
+
+# 4. List
+items = ["Biryani", "Burger", "Pizza"]
+
+# 5. Tuple
+location = (15.82, 78.04)
+
+# 6. Set
+categories = {"Rayalseema", "Chinese", "Pizza"}
+
+# 7. Dictionary
+order = {
+    "food": "Chicken Biryani",
+    "price": 249.50,
+    "quantity": 2
+}
+
+# 8. Boolean
+delivered = True
+
+print("Quantity:", quantity)
+print("Price:", price)
+print("Food:", food)
+print("Items:", items)
+print("Location:", location)
+print("Categories:", categories)
+print("Order:", order)
+print("Delivered:", delivered)
