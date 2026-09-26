@@ -1,4 +1,4 @@
-
+#Python Data types
 Integer
 quantity = 5
 Float
